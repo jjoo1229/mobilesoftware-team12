@@ -16,7 +16,8 @@ class MainActivity : AppCompatActivity() {
 
         toggle = ActionBarDrawerToggle(this, binding.drawer, binding.toolbar, R.string.drawer_opened, R.string.drawer_closed)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        toggle.syncState()
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.baseline_menu_24)
+        //toggle.syncState()
 
     }
 }

@@ -3,8 +3,6 @@
     <style name="Base.Theme.MyProject" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">#0078FF</item>
         <item name="colorPrimaryVariant">#0000FF</item>
-
     </style>
-
     <style name="Theme.MyProject" parent="Base.Theme.MyProject" />
 </resources>
