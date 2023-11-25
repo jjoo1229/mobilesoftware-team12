@@ -41,8 +41,11 @@ class MainActivity : AppCompatActivity() {
         binding.viewpager.adapter = MyFragmentPagerAdapter(this)
         //tablayout 코드 작성
         val tabTitles = listOf("1인", "2인", "3인 이상")
+        val tabIcons = listOf(R.drawable.img, R.drawable.img_1, R.drawable.img_2)
         TabLayoutMediator(binding.tabs, binding.viewpager) { tab, position ->
             tab.text = tabTitles[position]
+            tab.setIcon(tabIcons[position])
+
         }.attach()
 
     }
