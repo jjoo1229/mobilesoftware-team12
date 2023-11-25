@@ -45,7 +45,6 @@ class MainActivity : AppCompatActivity() {
         TabLayoutMediator(binding.tabs, binding.viewpager) { tab, position ->
             tab.text = tabTitles[position]
             tab.setIcon(tabIcons[position])
-
         }.attach()
 
     }
