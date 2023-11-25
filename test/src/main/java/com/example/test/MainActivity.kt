@@ -19,5 +19,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setHomeAsUpIndicator(R.drawable.baseline_menu_24)
         //toggle.syncState()
 
+
+
     }
 }

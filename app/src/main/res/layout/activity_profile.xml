@@ -31,9 +31,6 @@
             android:background="#ffffff"
             />
 
-
-
-
     </com.google.android.material.appbar.CollapsingToolbarLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -105,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_gravity="center"
-                android:layout_marginTop="200dp">
+                android:layout_marginTop="150dp">
 
                 <ImageView
                     android:layout_width="30dp"
@@ -114,12 +111,13 @@
                     android:layout_marginTop="10dp"
                     />
                 <Button
-                    android:id="@+id/btn_logout"
+                    android:id="@+id/logout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="로그아웃"
                     android:textColor="#000000"
-                    android:backgroundTint="#FFFFFF"/>
+                    android:backgroundTint="#FFFFFF"
+                    />
 
                 <ImageView
                     android:layout_width="30dp"
@@ -128,28 +126,22 @@
                     android:layout_marginTop="10dp"/>
 
                 <Button
-                    android:id="@+id/btn_unregister"
+                    android:id="@+id/unregister"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="탈퇴하기"
                     android:textColor="#000000"
                     android:backgroundTint="#FFFFFF"/>
-
-
-
-
             </LinearLayout>
-
         </LinearLayout>
-        <androidx.viewpager2.widget.ViewPager2
+
+        <!--<androidx.viewpager2.widget.ViewPager2
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/viewpager"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             >
-
-        </androidx.viewpager2.widget.ViewPager2>
-
+        </androidx.viewpager2.widget.ViewPager2>-->
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
     <com.google.android.material.navigation.NavigationView

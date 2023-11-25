@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/menu_item_first"
-        android:title="전체글 보기">
+        android:title="사진관별 위치">
     </item>
     <item android:id="@+id/menu_item_gallery"
-        android:title="갤러리">
+        android:title="사진관별 특징">
     </item>
     <item android:id="@+id/menu_item_calander"
-        android:title="일정보기">
+        android:title="갤러리">
     </item>
     <item android:id="@+id/menu_item_help2"
-        android:title="도움말">
+        android:title="포즈 추천">
     </item>
 
 </menu>

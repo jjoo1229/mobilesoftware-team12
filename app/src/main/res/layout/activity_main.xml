@@ -24,7 +24,6 @@
                 app:title="포즈 추천"
                 >
 
-
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
