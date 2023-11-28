@@ -18,11 +18,11 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.myproject.databinding.ActivityGalleryBinding
 import com.example.myproject.databinding.ActivityMainBinding
 import com.example.myproject.databinding.ActivityProfileBinding
+import com.google.android.material.navigation.NavigationView
 import com.google.android.material.tabs.TabLayoutMediator
 
-class GalleryActivity : AppCompatActivity() {
+class GalleryActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     lateinit var toggle: ActionBarDrawerToggle
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityGalleryBinding.inflate(layoutInflater)
@@ -37,5 +37,42 @@ class GalleryActivity : AppCompatActivity() {
         )
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.baseline_menu_24)
+
+        binding.navigationView.setNavigationItemSelectedListener(this)
+    }
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        //화면에 보여짐
+        val inflater = menuInflater
+        inflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        //이벤트가 토글 버튼에서 발생하면
+        if (toggle.onOptionsItemSelected(item)) {
+            return true
         }
+        when (item.itemId) {
+            R.id.menu_myprofile -> {
+                val intent = Intent(this, ProfileActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.menu_item_gallery -> {
+                val intent = Intent(this, GalleryActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+            R.id.menu_item_pose -> {
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+        }
+        return true
+    }
 }

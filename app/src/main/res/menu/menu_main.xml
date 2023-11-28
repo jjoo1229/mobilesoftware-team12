@@ -6,7 +6,4 @@
         android:title="my_profile"
         android:icon="@drawable/img"
         app:showAsAction="always"/>
-
-
-
 </menu>

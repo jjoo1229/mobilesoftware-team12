@@ -13,29 +13,39 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.myproject.databinding.ActivityMainBinding
+import com.google.android.material.navigation.NavigationView
 import com.google.android.material.tabs.TabLayoutMediator
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     lateinit var toggle: ActionBarDrawerToggle
-    class MyFragmentPagerAdapter(activity: FragmentActivity):
+
+    class MyFragmentPagerAdapter(activity: FragmentActivity) :
         FragmentStateAdapter(activity) {
         val fragments: List<Fragment>
-        init{
+
+        init {
             fragments = listOf(OneFragment(), TwoFragment(), ThreeFragment())
         }
+
         override fun getItemCount(): Int = fragments.size
         override fun createFragment(position: Int): Fragment = fragments[position]
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
-        toggle = ActionBarDrawerToggle(this, binding.drawer, binding.toolbar, R.string.drawer_opened, R.string.drawer_closed)
+        toggle = ActionBarDrawerToggle(
+            this,
+            binding.drawer,
+            binding.toolbar,
+            R.string.drawer_opened,
+            R.string.drawer_closed
+        )
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.baseline_menu_24)
-        //toggle.syncState()
 
         //viewpager2 코드 작성
         binding.viewpager.adapter = MyFragmentPagerAdapter(this)
@@ -47,6 +57,8 @@ class MainActivity : AppCompatActivity() {
             tab.setIcon(tabIcons[position])
         }.attach()
 
+        binding.navigationView.setNavigationItemSelectedListener(this)
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -55,11 +67,13 @@ class MainActivity : AppCompatActivity() {
         inflater.inflate(R.menu.menu_main, menu)
         return super.onCreateOptionsMenu(menu)
     }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if(toggle.onOptionsItemSelected(item)) {
+        //이벤트가 토글 버튼에서 발생하면
+        if (toggle.onOptionsItemSelected(item)) {
             return true
         }
-        when(item.itemId) {
+        when (item.itemId) {
             R.id.menu_myprofile -> {
                 Log.d("soni", "go to my profile")
                 val intent = Intent(this, ProfileActivity::class.java)
@@ -67,7 +81,22 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
         }
-
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.menu_item_gallery -> {
+                val intent = Intent(this, GalleryActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+            R.id.menu_item_pose -> {
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+        }
+        return true
     }
 }

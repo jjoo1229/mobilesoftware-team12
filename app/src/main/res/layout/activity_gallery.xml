@@ -49,16 +49,15 @@
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             >
         </androidx.viewpager2.widget.ViewPager2>
-        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            app:icon="@drawable/baseline_ios_share_24"
+            android:src="@drawable/baseline_ios_share_24"
             app:layout_anchor="@id/viewpager"
             app:layout_anchorGravity="bottom|right"
             android:backgroundTint="#D9D9D9"
-
             />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
