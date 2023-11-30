@@ -58,16 +58,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }.attach()
 
         binding.navigationView.setNavigationItemSelectedListener(this)
-
     }
-
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         //화면에 보여짐
         val inflater = menuInflater
         inflater.inflate(R.menu.menu_main, menu)
         return super.onCreateOptionsMenu(menu)
     }
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         //이벤트가 토글 버튼에서 발생하면
         if (toggle.onOptionsItemSelected(item)) {

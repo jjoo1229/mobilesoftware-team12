@@ -2,27 +2,37 @@ package com.example.myproject
 
 import android.content.DialogInterface
 import android.content.Intent
+import android.graphics.BitmapFactory
 import android.graphics.Color
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
+import android.provider.MediaStore
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.PopupMenu
 import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.myproject.databinding.ActivityGalleryBinding
 import com.example.myproject.databinding.ActivityMainBinding
 import com.example.myproject.databinding.ActivityProfileBinding
+
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.tabs.TabLayoutMediator
 
 class GalleryActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     lateinit var toggle: ActionBarDrawerToggle
+    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityGalleryBinding.inflate(layoutInflater)
@@ -39,7 +49,32 @@ class GalleryActivity : AppCompatActivity(), NavigationView.OnNavigationItemSele
         supportActionBar?.setHomeAsUpIndicator(R.drawable.baseline_menu_24)
 
         binding.navigationView.setNavigationItemSelectedListener(this)
+
+        binding.fab.setOnClickListener { view ->
+            val popup = PopupMenu(this, view)
+            popup.menuInflater.inflate(R.menu.menu_fab, popup.menu)
+
+            popup.setOnMenuItemClickListener { menuItem ->
+                when (menuItem.itemId) {
+                    R.id.fab_gallery -> {
+                        Log.d("soni", "go to gallery")
+                        true
+                    }
+                    R.id.fab_camera -> {
+                        Log.d("soni", "go to camera")
+                        true
+                    }
+                    // Add more cases for other menu items if needed
+                    else -> false
+                }
+            }
+            popup.show()
+        }
+
     }
+
+
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         //화면에 보여짐
         val inflater = menuInflater

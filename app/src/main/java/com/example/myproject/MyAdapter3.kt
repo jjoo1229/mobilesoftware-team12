@@ -3,9 +3,8 @@ package com.example.myproject
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myproject.databinding.ItemRecyclerview2Binding
 import com.example.myproject.databinding.ItemRecyclerview3Binding
-import com.example.myproject.databinding.ItemRecyclerviewBinding
+
 
 class MyViewHolder3(val binding: ItemRecyclerview3Binding): RecyclerView.ViewHolder(binding.root)
 
@@ -19,7 +18,5 @@ class MyAdapter3( val images:MutableList<Int>): RecyclerView.Adapter<RecyclerVie
         val binding = (holder as MyViewHolder3).binding
 
         binding.itemImage3.setImageResource(images[position])
-        //binding.itemData1.text = datas1[position]
-        //binding.itemData2.text = datas2[position]
     }
 }

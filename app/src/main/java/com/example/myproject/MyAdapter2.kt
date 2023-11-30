@@ -18,7 +18,5 @@ class MyAdapter2( val images:MutableList<Int>): RecyclerView.Adapter<RecyclerVie
         val binding = (holder as MyViewHolder2).binding
 
         binding.itemImage2.setImageResource(images[position])
-        //binding.itemData1.text = datas1[position]
-        //binding.itemData2.text = datas2[position]
     }
 }
