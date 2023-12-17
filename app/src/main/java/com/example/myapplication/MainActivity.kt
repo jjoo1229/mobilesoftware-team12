@@ -1,28 +1,37 @@
 package com.example.myapplication
 
+
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
-import com.example.myapplication.databinding.ActivitySignInBinding
+import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.databinding.ActivityMainBinding
+import com.google.firebase.auth.FirebaseAuth
+
 
 class MainActivity : AppCompatActivity() {
+    lateinit var binding: ActivityMainBinding
+    lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val binding = ActivitySignInBinding.inflate(layoutInflater)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.duplicateCheckButton.setOnClickListener {
-            Log.d("jooyeong","duplicate Button Clicked")
-            Toast.makeText(this, "중복되는 아이디입니다.", Toast.LENGTH_SHORT).show()
+        auth = FirebaseAuth.getInstance()
+
+
+        binding.text.text = auth.currentUser?.email
+
+        binding.moveToLogin.setOnClickListener {
+            Log.d("jooyeong","move to log in page")
+            val nextIntent = Intent(this, LogInActivity::class.java)
+            startActivity(nextIntent)
         }
 
-        binding.signInButton.setOnClickListener {
-            Log.d("jooyeong","sign In Button Clicked")
-            Toast.makeText(this, "회원가입이 완료되었습니다.", Toast.LENGTH_SHORT).show()
-            val nextIntent = Intent(this, LogInActivity::class.java)
+        binding.moveToSignIn.setOnClickListener {
+            Log.d("jooyeong","move to sign in page")
+            val nextIntent = Intent(this,SignInActivity::class.java)
             startActivity(nextIntent)
         }
     }
