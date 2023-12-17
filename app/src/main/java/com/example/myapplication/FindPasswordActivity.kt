@@ -33,7 +33,7 @@ class FindPasswordActivity : AppCompatActivity() {
                         startActivity(nextIntent)
                     }
                     else {
-                        // 구현 아직 안 됨..
+                        // 구현 아직 안 됨.. 자꾸 다 이메일 보내는 것으로 됨
                         val exception = result.exception
                         if (exception is FirebaseAuthInvalidUserException) {
                             Toast.makeText(this, "등록되지 않은 이메일 주소입니다.", Toast.LENGTH_SHORT).show()

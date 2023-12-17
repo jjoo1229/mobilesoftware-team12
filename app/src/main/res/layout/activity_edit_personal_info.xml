@@ -26,39 +26,41 @@
         android:gravity="center_horizontal"
         android:layout_marginTop="90dp"
         android:layout_marginBottom="30dp">
+<!--        <EditText-->
+<!--            android:layout_width="290dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="이름을 입력해주세요."-->
+<!--            android:text="김눈송"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textColorHint="@color/gray"-->
+<!--            android:background="@drawable/input_border"-->
+<!--            android:padding="5dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            />-->
         <EditText
-            android:layout_width="290dp"
-            android:layout_height="wrap_content"
-            android:hint="이름을 입력해주세요."
-            android:text="김눈송"
-            android:textSize="20sp"
-            android:textColorHint="@color/gray"
-            android:background="@drawable/input_border"
-            android:padding="5dp"
-            android:layout_marginBottom="10dp"
-            />
-        <EditText
+            android:id="@+id/email_et"
             android:layout_width="290dp"
             android:layout_height="wrap_content"
             android:hint="이메일을 입력해주세요."
-            android:text="user@example.com"
+            android:text=""
             android:textSize="20sp"
             android:textColorHint="@color/gray"
             android:background="@drawable/input_border"
             android:padding="5dp"
             android:layout_marginBottom="10dp"
+            android:focusableInTouchMode="false"
             />
-        <EditText
-            android:layout_width="290dp"
-            android:layout_height="wrap_content"
-            android:hint="아이디를 입력해주세요."
-            android:text="test1234"
-            android:textSize="20sp"
-            android:textColorHint="@color/gray"
-            android:background="@drawable/input_border"
-            android:padding="5dp"
-            android:layout_marginBottom="10dp"
-            />
+<!--        <EditText-->
+<!--            android:layout_width="290dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="아이디를 입력해주세요."-->
+<!--            android:text="test1234"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textColorHint="@color/gray"-->
+<!--            android:background="@drawable/input_border"-->
+<!--            android:padding="5dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            />-->
         <EditText
             android:layout_width="290dp"
             android:layout_height="wrap_content"
