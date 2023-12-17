@@ -109,7 +109,7 @@ class feature : AppCompatActivity() {
         init {
             fragments.add(feature_harufilm())
             fragments.add(feature_oldmoon())
-            fragments.add(feature_photosigniture())
+            fragments.add(feature_photosignature())
             fragments.add(feature_life4cut())
             fragments.add(feature_monomention())
             fragments.add(feature_photoism())
