@@ -31,16 +31,7 @@ public final class FragmentFeatureMonomentionBinding implements ViewBinding {
   public final ImageView imageView11;
 
   @NonNull
-  public final ImageView imageView12;
-
-  @NonNull
   public final ImageView imageView14;
-
-  @NonNull
-  public final ImageView imageView15;
-
-  @NonNull
-  public final ImageView imageView16;
 
   @NonNull
   public final ImageView imageView9;
@@ -52,13 +43,7 @@ public final class FragmentFeatureMonomentionBinding implements ViewBinding {
   public final TextView textView11;
 
   @NonNull
-  public final TextView textView12;
-
-  @NonNull
   public final TextView textView13;
-
-  @NonNull
-  public final TextView textView14;
 
   @NonNull
   public final TextView textView6;
@@ -74,26 +59,19 @@ public final class FragmentFeatureMonomentionBinding implements ViewBinding {
 
   private FragmentFeatureMonomentionBinding(@NonNull ConstraintLayout rootView,
       @NonNull HorizontalScrollView horizontalScrollView, @NonNull ImageView imageView10,
-      @NonNull ImageView imageView11, @NonNull ImageView imageView12,
-      @NonNull ImageView imageView14, @NonNull ImageView imageView15,
-      @NonNull ImageView imageView16, @NonNull ImageView imageView9, @NonNull TextView textView10,
-      @NonNull TextView textView11, @NonNull TextView textView12, @NonNull TextView textView13,
-      @NonNull TextView textView14, @NonNull TextView textView6, @NonNull TextView textView7,
-      @NonNull TextView textView8, @NonNull TextView textView9) {
+      @NonNull ImageView imageView11, @NonNull ImageView imageView14, @NonNull ImageView imageView9,
+      @NonNull TextView textView10, @NonNull TextView textView11, @NonNull TextView textView13,
+      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textView8,
+      @NonNull TextView textView9) {
     this.rootView = rootView;
     this.horizontalScrollView = horizontalScrollView;
     this.imageView10 = imageView10;
     this.imageView11 = imageView11;
-    this.imageView12 = imageView12;
     this.imageView14 = imageView14;
-    this.imageView15 = imageView15;
-    this.imageView16 = imageView16;
     this.imageView9 = imageView9;
     this.textView10 = textView10;
     this.textView11 = textView11;
-    this.textView12 = textView12;
     this.textView13 = textView13;
-    this.textView14 = textView14;
     this.textView6 = textView6;
     this.textView7 = textView7;
     this.textView8 = textView8;
@@ -145,27 +123,9 @@ public final class FragmentFeatureMonomentionBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView12;
-      ImageView imageView12 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView12 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView14;
       ImageView imageView14 = ViewBindings.findChildViewById(rootView, id);
       if (imageView14 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView15;
-      ImageView imageView15 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView15 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView16;
-      ImageView imageView16 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView16 == null) {
         break missingId;
       }
 
@@ -187,21 +147,9 @@ public final class FragmentFeatureMonomentionBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView12;
-      TextView textView12 = ViewBindings.findChildViewById(rootView, id);
-      if (textView12 == null) {
-        break missingId;
-      }
-
       id = R.id.textView13;
       TextView textView13 = ViewBindings.findChildViewById(rootView, id);
       if (textView13 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView14;
-      TextView textView14 = ViewBindings.findChildViewById(rootView, id);
-      if (textView14 == null) {
         break missingId;
       }
 
@@ -230,9 +178,8 @@ public final class FragmentFeatureMonomentionBinding implements ViewBinding {
       }
 
       return new FragmentFeatureMonomentionBinding((ConstraintLayout) rootView,
-          horizontalScrollView, imageView10, imageView11, imageView12, imageView14, imageView15,
-          imageView16, imageView9, textView10, textView11, textView12, textView13, textView14,
-          textView6, textView7, textView8, textView9);
+          horizontalScrollView, imageView10, imageView11, imageView14, imageView9, textView10,
+          textView11, textView13, textView6, textView7, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import android.widget.ToggleButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -80,6 +81,18 @@ public final class ActivityLocationPageBinding implements ViewBinding {
   public final RelativeLayout locationDrawerMenu;
 
   @NonNull
+  public final ImageView locationHaru1;
+
+  @NonNull
+  public final TextView locationHaru11;
+
+  @NonNull
+  public final TextView locationHaru12;
+
+  @NonNull
+  public final TextView locationHaru13;
+
+  @NonNull
   public final LinearLayout locationHarufilm;
 
   @NonNull
@@ -146,6 +159,8 @@ public final class ActivityLocationPageBinding implements ViewBinding {
       @NonNull ImageView imageView6, @NonNull ImageView imageView7, @NonNull ImageView imageView8,
       @NonNull ImageView imageView9, @NonNull LinearLayout linearLayout,
       @NonNull DrawerLayout locationDrawerLayout, @NonNull RelativeLayout locationDrawerMenu,
+      @NonNull ImageView locationHaru1, @NonNull TextView locationHaru11,
+      @NonNull TextView locationHaru12, @NonNull TextView locationHaru13,
       @NonNull LinearLayout locationHarufilm, @NonNull LinearLayout locationLife4cut,
       @NonNull ToggleButton locationMenuToggle, @NonNull LinearLayout locationMonomention,
       @NonNull ImageView locationMyPageButton, @NonNull LinearLayout locationOldmoon,
@@ -173,6 +188,10 @@ public final class ActivityLocationPageBinding implements ViewBinding {
     this.linearLayout = linearLayout;
     this.locationDrawerLayout = locationDrawerLayout;
     this.locationDrawerMenu = locationDrawerMenu;
+    this.locationHaru1 = locationHaru1;
+    this.locationHaru11 = locationHaru11;
+    this.locationHaru12 = locationHaru12;
+    this.locationHaru13 = locationHaru13;
     this.locationHarufilm = locationHarufilm;
     this.locationLife4cut = locationLife4cut;
     this.locationMenuToggle = locationMenuToggle;
@@ -324,6 +343,30 @@ public final class ActivityLocationPageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.location_haru_1;
+      ImageView locationHaru1 = ViewBindings.findChildViewById(rootView, id);
+      if (locationHaru1 == null) {
+        break missingId;
+      }
+
+      id = R.id.location_haru_1_1;
+      TextView locationHaru11 = ViewBindings.findChildViewById(rootView, id);
+      if (locationHaru11 == null) {
+        break missingId;
+      }
+
+      id = R.id.location_haru_1_2;
+      TextView locationHaru12 = ViewBindings.findChildViewById(rootView, id);
+      if (locationHaru12 == null) {
+        break missingId;
+      }
+
+      id = R.id.location_haru_1_3;
+      TextView locationHaru13 = ViewBindings.findChildViewById(rootView, id);
+      if (locationHaru13 == null) {
+        break missingId;
+      }
+
       id = R.id.location_harufilm;
       LinearLayout locationHarufilm = ViewBindings.findChildViewById(rootView, id);
       if (locationHarufilm == null) {
@@ -447,10 +490,11 @@ public final class ActivityLocationPageBinding implements ViewBinding {
       return new ActivityLocationPageBinding((ConstraintLayout) rootView, button11, button12,
           button21, button22, button23, button31, button32, imageView10, imageView11, imageView5,
           imageView6, imageView7, imageView8, imageView9, linearLayout, locationDrawerLayout,
-          locationDrawerMenu, locationHarufilm, locationLife4cut, locationMenuToggle,
-          locationMonomention, locationMyPageButton, locationOldmoon, locationPhotogray,
-          locationPhotoism, locationPhotosigniture, mainContent, mapView1, mapView2, mapView3,
-          mapView4, mapView5, mapView6, mapView7, scrollView, searchView, topLayout);
+          locationDrawerMenu, locationHaru1, locationHaru11, locationHaru12, locationHaru13,
+          locationHarufilm, locationLife4cut, locationMenuToggle, locationMonomention,
+          locationMyPageButton, locationOldmoon, locationPhotogray, locationPhotoism,
+          locationPhotosigniture, mainContent, mapView1, mapView2, mapView3, mapView4, mapView5,
+          mapView6, mapView7, scrollView, searchView, topLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

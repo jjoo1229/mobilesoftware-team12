@@ -5,5 +5,10 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+    <!-- 버튼의 배경을 없애고 테두리선만 있는 스타일 -->
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/button_border</item>
+    </style>
+
     <style name="Theme.Mobilesoftware_kangjihye" parent="Base.Theme.Mobilesoftware_kangjihye" />
 </resources>

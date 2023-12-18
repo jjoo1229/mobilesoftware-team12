@@ -8,5 +8,8 @@
         
         
     </style>
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/button_border</item>
+    </style>
     <style name="Theme.Mobilesoftware_kangjihye" parent="Base.Theme.Mobilesoftware_kangjihye"/>
 </resources>

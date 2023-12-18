@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.mobilesoftware_kangjihye.app-mergeDebugResources-33:/layout/activity_feature.xml",
+        "source": "com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_feature.xml"
+    },
+    {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-mergeDebugResources-33:/layout/activity_location.xml",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_location.xml"
     },
@@ -12,8 +16,12 @@
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/fragment_feature_life4cut.xml"
     },
     {
-        "merged": "com.example.mobilesoftware_kangjihye.app-mergeDebugResources-33:/layout/activity_location_page.xml",
-        "source": "com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_location_page.xml"
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-mergeDebugResources-33:/layout/activity_location_page.xml",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_location_page.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-mergeDebugResources-33:/layout/fragment_feature_photosignature.xml",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/fragment_feature_photosignature.xml"
     },
     {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-mergeDebugResources-33:/layout/fragment_feature_photosigniture.xml",
@@ -32,12 +40,12 @@
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/fragment_feature_oldmoon.xml"
     },
     {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-mergeDebugResources-33:/layout/activity_main.xml",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_main.xml"
-    },
-    {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-mergeDebugResources-33:/layout/fragment_feature_monomention.xml",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/fragment_feature_monomention.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_main.xml"
     },
     {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-mergeDebugResources-33:/layout/activity_feature.xml",

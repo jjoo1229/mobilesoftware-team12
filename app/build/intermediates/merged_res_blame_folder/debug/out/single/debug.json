@@ -1,95 +1,275 @@
 [
     {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photogray_colab_8.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photogray_colab_8.png"
     },
     {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_fragment_feature_harufilm.xml.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/fragment_feature_harufilm.xml"
     },
     {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photogray_colab_1.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photogray_colab_1.png"
+    },
+    {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_fragment_feature_photoism.xml.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/fragment_feature_photoism.xml"
     },
     {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photoism_colab_7.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photoism_colab_7.png"
     },
     {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_activity_location.xml.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_location.xml"
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_life4cut_colab.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/life4cut_colab.png"
     },
     {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/xml_backup_rules.xml.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/xml/backup_rules.xml"
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_haru_colab.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/haru_colab.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_button_border.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/button_border.xml"
     },
     {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_activity_main.xml.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_ic_launcher_foreground.xml.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_activity_location_page.xml.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_location_page.xml"
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_life4cut_colab_6.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/life4cut_colab_6.png"
     },
     {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_7.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_7.png"
     },
     {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_fragment_feature_monomention.xml.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/fragment_feature_monomention.xml"
     },
     {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_10.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_10.png"
+    },
+    {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-anydpi_ic_launcher.xml.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photogray_colab_7.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photogray_colab_7.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_oldmoon_colab_6.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/oldmoon_colab_6.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photogray_colab.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photogray_colab.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photoism_colab_6.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photoism_colab_6.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_life4cut_colab_5.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/life4cut_colab_5.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_oldmoon_colab.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/oldmoon_colab.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_6.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_6.png"
+    },
+    {
+        "merged": "com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_activity_feature.xml.flat",
+        "source": "com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_feature.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_life4cut_colab_8.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/life4cut_colab_8.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/xml_backup_rules.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photogray_colab_3.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photogray_colab_3.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_5.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_5.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_2.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_2.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_oldmoon_colab_1.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/oldmoon_colab_1.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_haru_colab_2.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/haru_colab_2.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_8.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_8.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_oldmoon_colab_4.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/oldmoon_colab_4.png"
     },
     {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photogray_colab_9.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photogray_colab_9.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_background_photogray.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/background_photogray.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_12.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_12.png"
     },
     {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_drawer.xml.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/drawer.xml"
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photoism_colab_1.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photoism_colab_1.png"
     },
     {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/xml/data_extraction_rules.xml"
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photoism_colab.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photoism_colab.png"
     },
     {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_fragment_feature_oldmoon.xml.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/fragment_feature_oldmoon.xml"
     },
     {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_background_monomension.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/background_monomension.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_background_harufilm.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/background_harufilm.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photogray_colab_6.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photogray_colab_6.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photoism_colab_4.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photoism_colab_4.png"
+    },
+    {
+        "merged": "com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_button_border.xml.flat",
+        "source": "com.example.mobilesoftware_kangjihye.app-main-36:/drawable/button_border.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_fragment_feature_photosignature.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/fragment_feature_photosignature.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_monomension_colab_2.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/monomension_colab_2.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_oldmoon_colab_3.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/oldmoon_colab_3.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_life4cut_colab_3.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/life4cut_colab_3.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_activity_location.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_location.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photoism_colab_3.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photoism_colab_3.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photogray_colab_5.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photogray_colab_5.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_monomension_colab_3.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/monomension_colab_3.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_life4cut_colab_9.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/life4cut_colab_9.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_background_oldmoon.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/background_oldmoon.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_life4cut_colab_2.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/life4cut_colab_2.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photogray_colab_4.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photogray_colab_4.png"
+    },
+    {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_fragment_feature_photogray.xml.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/fragment_feature_photogray.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_3.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_3.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_background_life4cut.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/background_life4cut.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_monomension_colab.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/monomension_colab.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_background_photosignature.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/background_photosignature.xml"
     },
     {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_fragment_feature_photosigniture.xml.flat",
@@ -100,12 +280,104 @@
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_feature.xml"
     },
     {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_oldmoon_colab_2.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/oldmoon_colab_2.png"
+    },
+    {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_life4cut_colab_1.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/life4cut_colab_1.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photogray_colab_10.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photogray_colab_10.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_oldmoon_colab_5.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/oldmoon_colab_5.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photoism_colab_2.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photoism_colab_2.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_9.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_9.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_monomension_colab_4.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/monomension_colab_4.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photoism_colab_5.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photoism_colab_5.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_background_photoism.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/background_photoism.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_life4cut_colab_4.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/life4cut_colab_4.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_activity_location_page.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/activity_location_page.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_11.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_11.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_drawer.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/drawer.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photogray_colab_2.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photogray_colab_2.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_4.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_4.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_haru_colab_1.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/haru_colab_1.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_monomension_colab_1.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/monomension_colab_1.png"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_life4cut_colab_7.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/life4cut_colab_7.png"
+    },
+    {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/layout_fragment_feature_life4cut.xml.flat",
         "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/layout/fragment_feature_life4cut.xml"
+    },
+    {
+        "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/drawable_photosignature_colab_1.png.flat",
+        "source": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-main-36:/drawable/photosignature_colab_1.png"
     },
     {
         "merged": "/Users/kangjihye/.gradle/daemon/8.0/com.example.mobilesoftware_kangjihye.app-merged_res-34:/mipmap-mdpi_ic_launcher.webp.flat",
