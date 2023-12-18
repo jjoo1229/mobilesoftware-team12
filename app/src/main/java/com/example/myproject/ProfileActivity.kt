@@ -69,6 +69,16 @@ class ProfileActivity : AppCompatActivity(), NavigationView.OnNavigationItemSele
     }
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
+            R.id.menu_item_location -> {
+                val intent = Intent(this, LocationPageActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+            R.id.menu_item_feature -> {
+                val intent = Intent(this, FeatureActivity::class.java)
+                startActivity(intent)
+                return true
+            }
             R.id.menu_item_gallery -> {
                 val intent = Intent(this, GalleryActivity::class.java)
                 startActivity(intent)

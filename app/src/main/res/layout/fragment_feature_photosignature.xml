@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feature"
+    android:background="@drawable/background_photosignature">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:layout_gravity="center"
+                android:text="포토 시그니처"
+                android:textSize="30dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="110dp"
+                    android:text="# 고데기구비완"/>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="# 적당한보정"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="20dp"
+                android:text="👍🏻 다양한 캐릭터와의 콜라보\n👍🏻 고데기, 빗 사용 가능\n👍🏻 사진 자동 분할\n👍🏻 다양한 소품 구비\n👍🏻 유일 멀티 콜라보 프레임" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="90dp"
+                android:text="배경색"
+                android:textSize="30dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="100dp"
+                    android:src="#6E6E6E"/>
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:src="#ACACAC"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="45dp"
+                    android:src="#ADDBFF"/>
+
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:src="#DF93C9"/>
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="10dp"
+                    android:src="#9168CA"/>
+
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="90dp"
+                android:text="Special Frame"
+                android:textSize="30dp"/>
+
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="220dp"
+                android:layout_height="190dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/photosignature_colab"/>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_1"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_2"/>
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_3"/>
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_4"/>
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_5"/>
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_6"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_7"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_8"/>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_9"/>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_10"/>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_11"/>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/photosignature_colab_12"/>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="PEANUTS X PHOTO SIGNATURE"
+                android:textSize="22dp"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="colab with PEANUTS"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="2023.12.01~2023.12.31"
+                android:textSize="13dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
