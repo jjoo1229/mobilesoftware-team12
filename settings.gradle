@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "MyProject"
 include ':app'
 include ':test'
+include ':ch20_firebase'
