@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:backgroundTint="@color/black"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/image_location"
+        android:layout_width="195dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:onClick="onImageLocationClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_feature"
+        android:layout_width="195dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:onClick="onImageFeatureClick"
+        app:layout_constraintStart_toStartOf="@+id/image_location"
+        app:layout_constraintTop_toBottomOf="@+id/image_location" />
+
+    <ImageView
+        android:id="@+id/image_gallery"
+        android:layout_width="195dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:onClick="onImageGalleryClick"
+        app:layout_constraintStart_toStartOf="@+id/image_feature"
+        app:layout_constraintTop_toBottomOf="@+id/image_feature" />
+
+    <ImageView
+        android:id="@+id/image_pose"
+        android:layout_width="195dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:onClick="onImagePoseClick"
+        app:layout_constraintStart_toStartOf="@+id/image_feature"
+        app:layout_constraintTop_toBottomOf="@+id/image_gallery" />
+
+    <ImageView
+        android:id="@+id/btn_log_out"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@color/white" />
+
+    <TextView
+        android:id="@+id/text_log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Log out"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_log_out"
+        app:layout_constraintStart_toEndOf="@+id/btn_log_out" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="30dp"
+        android:text="사진관별 위치"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/image_location"
+        app:layout_constraintStart_toStartOf="@+id/image_location" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="30dp"
+        android:text="사진관별 특징"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/image_feature"
+        app:layout_constraintStart_toStartOf="@+id/image_feature" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginBottom="30dp"
+        android:text="갤러리"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/image_gallery"
+        app:layout_constraintStart_toStartOf="@+id/image_gallery" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="30dp"
+        android:text="포즈 추천"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/image_pose"
+        app:layout_constraintStart_toStartOf="@+id/image_pose" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintStart_toStartOf="@+id/image_gallery"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintStart_toStartOf="@+id/image_pose"
+        app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
