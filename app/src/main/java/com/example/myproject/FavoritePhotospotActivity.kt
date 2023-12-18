@@ -1,34 +1,14 @@
 package com.example.myproject
 
-import android.content.DialogInterface
 import android.content.Intent
-import android.graphics.BitmapFactory
-import android.graphics.Color
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.provider.MediaStore
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.PopupMenu
-import android.widget.Toast
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.appcompat.app.AlertDialog
-import androidx.core.graphics.drawable.DrawableCompat
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentActivity
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.myproject.databinding.ActivityFavoritePhotospotBinding
-import com.example.myproject.databinding.ActivityGalleryBinding
-import com.example.myproject.databinding.ActivityMainBinding
-import com.example.myproject.databinding.ActivityProfileBinding
 
 import com.google.android.material.navigation.NavigationView
-import com.google.android.material.tabs.TabLayoutMediator
 
 class FavoritePhotospotActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     lateinit var toggle: ActionBarDrawerToggle
@@ -83,7 +63,7 @@ class FavoritePhotospotActivity : AppCompatActivity(), NavigationView.OnNavigati
                 return true
             }
             R.id.menu_item_pose -> {
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, PoseActivity::class.java)
                 startActivity(intent)
                 return true
             }

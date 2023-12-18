@@ -1,25 +1,12 @@
 package com.example.myproject
 
-import android.content.DialogInterface
 import android.content.Intent
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.appcompat.app.AlertDialog
-import androidx.core.graphics.drawable.DrawableCompat
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentActivity
-import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.myproject.databinding.ActivityEditPersonalInfoBinding
-import com.example.myproject.databinding.ActivityMainBinding
-import com.example.myproject.databinding.ActivityProfileBinding
 import com.google.android.material.navigation.NavigationView
-import com.google.android.material.tabs.TabLayoutMediator
 
 class EditInfoActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     lateinit var toggle: ActionBarDrawerToggle
@@ -57,7 +44,7 @@ class EditInfoActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
                 return true
             }
             R.id.menu_item_pose -> {
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, PoseActivity::class.java)
                 startActivity(intent)
                 return true
             }
