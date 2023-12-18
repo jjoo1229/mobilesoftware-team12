@@ -4,7 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
+import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import com.example.myproject.databinding.ActivityLocationPageBinding
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -18,23 +21,23 @@ import com.google.android.gms.maps.model.MarkerOptions
 class LocationPageActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var binding: ActivityLocationPageBinding
     private var mMap: GoogleMap? = null
-
+    lateinit var toggle: ActionBarDrawerToggle
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLocationPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        setSupportActionBar(binding.toolbar)
 
-        val menuToggle = binding.locationMenuToggle
-        val drawerLayout: DrawerLayout = binding.locationDrawerLayout
+        toggle = ActionBarDrawerToggle(
+            this,
+            binding.locationDrawerLayout,
+            binding.toolbar,
+            R.string.drawer_opened,
+            R.string.drawer_closed
+        )
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.baseline_menu_24)
 
-
-        menuToggle.setOnCheckedChangeListener { _, isChecked ->
-            if (isChecked) {
-                drawerLayout.openDrawer(binding.locationDrawerMenu)
-            } else {
-                drawerLayout.closeDrawer(binding.locationDrawerMenu)
-            }
-        }
 
         // 버튼 클릭 시 해당 위치로 스크롤
 
@@ -112,5 +115,25 @@ class LocationPageActivity : AppCompatActivity(), OnMapReadyCallback {
         binding.scrollView.post {
             binding.scrollView.smoothScrollTo(0, view.top)
         }
+    }
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        //화면에 보여짐
+        val inflater = menuInflater
+        inflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        //이벤트가 토글 버튼에서 발생하면
+        if (toggle.onOptionsItemSelected(item)) {
+            return true
+        }
+        when (item.itemId) {
+            R.id.menu_myprofile -> {
+                val intent = Intent(this, ProfileActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

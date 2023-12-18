@@ -1,49 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:clickable="true"
-    android:focusable="true"
-    android:id="@+id/feature_drawerLayout">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/feature_drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <LinearLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/parent"
-        android:orientation="vertical"
-        >
+        android:layout_height="match_parent">
 
-        <LinearLayout
+        <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp">
+            android:layout_height="200dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-            <!-- 3줄 토글 버튼 -->
-            <ToggleButton
-                android:id="@+id/feature_menuToggle"
-                android:layout_width="42dp"
-                android:layout_height="34dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:focusable="true"
-                android:src="@drawable/img_3line" />
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                >
 
-            <!-- 마이페이지 버튼 -->
-            <ImageView
-                android:id="@+id/location_myPageButton"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginEnd="10dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:layout_marginStart="315dp"
-                android:src="@drawable/img_mypage"
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:background="#ffffff"
+                    app:layout_collapseMode="pin">
 
-                />
-        </LinearLayout>
+                </androidx.appcompat.widget.Toolbar>
 
+
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    app:layout_collapseMode="parallax" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
 
 
         <LinearLayout
@@ -53,7 +50,7 @@
             android:orientation="vertical"
             android:paddingLeft="22dp"
             android:paddingRight="22dp"
-            >
+            android:layout_marginTop="60dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -66,16 +63,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:textSize="15dp"
-                    android:text="하루필름" />
+                    android:text="하루필름"
+                    android:textSize="15dp" />
 
                 <Button
                     android:id="@+id/btn_feature_oldmoon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:textSize="15dp"
-                    android:text="그믐달스튜디오" />
+                    android:text="그믐달스튜디오"
+                    android:textSize="15dp" />
 
             </LinearLayout>
 
@@ -90,24 +87,24 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:textSize="15dp"
-                    android:text="포토시그니처" />
+                    android:text="포토시그니처"
+                    android:textSize="15dp" />
 
                 <Button
                     android:id="@+id/btn_feature_life"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:textSize="15dp"
-                    android:text="인생네컷" />
+                    android:text="인생네컷"
+                    android:textSize="15dp" />
 
                 <Button
                     android:id="@+id/btn_feature_mono"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:textSize="15dp"
-                    android:text="모노맨션" />
+                    android:text="모노맨션"
+                    android:textSize="15dp" />
 
             </LinearLayout>
 
@@ -122,16 +119,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:textSize="15dp"
-                    android:text="포토이즘" />
+                    android:text="포토이즘"
+                    android:textSize="15dp" />
 
                 <Button
                     android:id="@+id/btn_feature_gray"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:textSize="15dp"
-                    android:text="포토그레이" />
+                    android:text="포토그레이"
+                    android:textSize="15dp" />
 
             </LinearLayout>
 
@@ -140,6 +137,7 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="210dp"
             android:orientation="vertical">
 
             <androidx.viewpager2.widget.ViewPager2
@@ -148,17 +146,16 @@
                 android:layout_height="wrap_content" />
         </ScrollView>
 
-    </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/feature_drawerMenu"
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:headerLayout="@layout/drawer"
-        >
-    </com.google.android.material.navigation.NavigationView>
+        app:headerLayout="@layout/drawer">
 
+    </com.google.android.material.navigation.NavigationView>
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

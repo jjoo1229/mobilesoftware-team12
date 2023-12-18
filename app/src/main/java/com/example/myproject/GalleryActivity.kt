@@ -22,8 +22,6 @@ import androidx.core.content.FileProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.myproject.databinding.ActivityGalleryBinding
 import com.example.myproject.databinding.CustomDialogBinding
-
-import com.google.android.material.navigation.NavigationView
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -93,19 +91,6 @@ class GalleryActivity : AppCompatActivity() {
                                 galleryAdapter.addDate(year, month , day)
                             }
                         }, 2023, 12, 2).show()
-                    }
-                    dialogBinding.choicePhotospot.setOnClickListener{
-                        val items = arrayOf<String>("• 그믐달 스튜디오", "• 모노맨션", "• 인생네컷", "• 포토그레이", "• 포토시그니처", "• 포토이즘", "• 하루필름", "• 기타")
-                        AlertDialog.Builder(this).run {
-                            setTitle("사진관 선택")
-                            setItems(items,  object: DialogInterface.OnClickListener{
-                                override fun onClick(dialog: DialogInterface?, which: Int) {
-                                    Log.d("soni", "${items[which]}가 선택되었습니다.")
-
-                                }
-                            })
-                            show()
-                        }
                     }
                     dialog.show()
                 } ?: let {
