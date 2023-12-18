@@ -3,6 +3,7 @@ package com.example.myproject
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import androidx.drawerlayout.widget.DrawerLayout
@@ -143,15 +144,28 @@ class FeatureActivity : AppCompatActivity() {
         }
     }
 
-
     // 메서드 추가
-    fun onImageFeatureClick(view: View) {
+    fun onLinearLocationClick(view: View) {
+        Log.d("MainActivity", "onImageLocationClick called")
+        val intent = Intent(this, LocationPageActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onLinearFeatureClick(view: View) {
+        Log.d("MainActivity", "onImageFeatureClick called")
         val intent = Intent(this, FeatureActivity::class.java)
         startActivity(intent)
     }
 
-    fun onImageLocationClick(view: View) {
-        val intent = Intent(this, LocationPageActivity::class.java)
+    fun onLinearGalleryClick(view: View) {
+        Log.d("MainActivity", "onLinearGalleryClick called")
+        val intent = Intent(this, GalleryActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onImagePoseClick(view: View) {
+        Log.d("MainActivity", "onImagePoseClick called")
+        val intent = Intent(this, PoseActivity::class.java)
         startActivity(intent)
     }
 

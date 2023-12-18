@@ -12,6 +12,7 @@ import android.provider.MediaStore
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.DatePicker
 import android.widget.PopupMenu
 import androidx.activity.result.contract.ActivityResultContracts
@@ -27,7 +28,7 @@ import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
 
-class GalleryActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+class GalleryActivity : AppCompatActivity() {
     lateinit var toggle: ActionBarDrawerToggle
     lateinit var filePath: String
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -129,35 +130,12 @@ class GalleryActivity : AppCompatActivity(), NavigationView.OnNavigationItemSele
                 galleryAdapter.addImage(bitmap)
             }
         }
-        binding.navigationView.setNavigationItemSelectedListener(this)
+
         binding.gallRecyclerview.layoutManager = GridLayoutManager(this, 2)
 
 
 
-        binding.sortingBtn.setOnClickListener{view ->
-            val popupsortingbtn = PopupMenu(this,view)
-            popupsortingbtn.menuInflater.inflate(R.menu.menu_sort, popupsortingbtn.menu)
-            popupsortingbtn.show()
-        }
 
-        binding.datesortBtn.setOnClickListener {
-            DatePickerDialog(this, object:DatePickerDialog.OnDateSetListener {
-                override fun onDateSet(
-                    p0: DatePicker?,
-                    p1: Int,
-                    p2: Int,
-                    p3: Int
-                ) {
-                    Log.d("soni", "year : $p1, month : ${p2 + 1}, dayOfMonth : $p3")
-                }
-            }, 2023, 12, 2).show()
-        }
-
-        binding.photospotBtn.setOnClickListener {view ->
-            val popupphotospotbtn = PopupMenu(this, view)
-            popupphotospotbtn.menuInflater.inflate(R.menu.menu_photospot, popupphotospotbtn.menu)
-            popupphotospotbtn.show()
-        }
 
         binding.fab.setOnClickListener { view ->
             val popup = PopupMenu(this, view)
@@ -228,30 +206,28 @@ class GalleryActivity : AppCompatActivity(), NavigationView.OnNavigationItemSele
         }
         return super.onOptionsItemSelected(item)
     }
-    override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            R.id.menu_item_location -> {
-                val intent = Intent(this, LocationPageActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-            R.id.menu_item_feature -> {
-                val intent = Intent(this, FeatureActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-            R.id.menu_item_gallery -> {
-                val intent = Intent(this, GalleryActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-            R.id.menu_item_pose -> {
-                val intent = Intent(this, PoseActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-        }
-        return true
+    fun onLinearLocationClick(view: View) {
+        Log.d("MainActivity", "onImageLocationClick called")
+        val intent = Intent(this, LocationPageActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onLinearFeatureClick(view: View) {
+        Log.d("MainActivity", "onImageFeatureClick called")
+        val intent = Intent(this, FeatureActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onLinearGalleryClick(view: View) {
+        Log.d("MainActivity", "onLinearGalleryClick called")
+        val intent = Intent(this, GalleryActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onImagePoseClick(view: View) {
+        Log.d("MainActivity", "onImagePoseClick called")
+        val intent = Intent(this, PoseActivity::class.java)
+        startActivity(intent)
     }
     private fun calculateInSampleSize(fileUri: Uri, reqWidth: Int, reqHeight: Int): Int {
         val options = BitmapFactory.Options()

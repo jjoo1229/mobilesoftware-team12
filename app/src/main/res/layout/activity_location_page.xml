@@ -10,34 +10,6 @@
     android:clickable="true"
     android:focusable="true">
 
-    <!-- 메인 내용 -->
-    <FrameLayout
-        android:id="@+id/mainContent"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <!-- Drawer 메뉴 -->
-    <RelativeLayout
-        android:id="@+id/location_drawerMenu"
-        android:layout_width="245dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@android:color/white"
-        app:layout_constraintStart_toStartOf="@+id/app_bar_main"
-        app:layout_constraintTop_toTopOf="@+id/app_bar_main">
-
-        <!-- 네비게이션 헤더 -->
-        <include
-            layout="@layout/drawer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="0dp"
-            android:layout_marginBottom="0dp" />
-        />
-
-    </RelativeLayout>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -1843,6 +1815,17 @@
         </ScrollView>
 
     </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/location_drawerMenu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/drawer"
+        >
+    </com.google.android.material.navigation.NavigationView>
+
 
 </androidx.drawerlayout.widget.DrawerLayout>
 

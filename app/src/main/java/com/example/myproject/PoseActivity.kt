@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
@@ -14,7 +15,7 @@ import com.example.myproject.databinding.ActivityPoseBinding
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.tabs.TabLayoutMediator
 
-class PoseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+class PoseActivity : AppCompatActivity() {
     lateinit var toggle: ActionBarDrawerToggle
 
     class MyFragmentPagerAdapter(activity: FragmentActivity) :
@@ -55,7 +56,7 @@ class PoseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             tab.setIcon(tabIcons[position])
         }.attach()
 
-        binding.navigationView.setNavigationItemSelectedListener(this)
+
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         //화면에 보여짐
@@ -78,20 +79,28 @@ class PoseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
         return super.onOptionsItemSelected(item)
     }
-
-    override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            R.id.menu_item_gallery -> {
-                val intent = Intent(this, GalleryActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-            R.id.menu_item_pose -> {
-                val intent = Intent(this, PoseActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-        }
-        return true
+    fun onLinearLocationClick(view: View) {
+        Log.d("MainActivity", "onImageLocationClick called")
+        val intent = Intent(this, LocationPageActivity::class.java)
+        startActivity(intent)
     }
+
+    fun onLinearFeatureClick(view: View) {
+        Log.d("MainActivity", "onImageFeatureClick called")
+        val intent = Intent(this, FeatureActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onLinearGalleryClick(view: View) {
+        Log.d("MainActivity", "onLinearGalleryClick called")
+        val intent = Intent(this, GalleryActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onImagePoseClick(view: View) {
+        Log.d("MainActivity", "onImagePoseClick called")
+        val intent = Intent(this, PoseActivity::class.java)
+        startActivity(intent)
+    }
+
 }

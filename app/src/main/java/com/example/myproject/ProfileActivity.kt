@@ -4,14 +4,16 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
 import com.example.myproject.databinding.ActivityProfileBinding
 import com.google.android.material.navigation.NavigationView
 
-class ProfileActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+class ProfileActivity : AppCompatActivity() {
     lateinit var toggle: ActionBarDrawerToggle
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,8 +30,6 @@ class ProfileActivity : AppCompatActivity(), NavigationView.OnNavigationItemSele
         )
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.baseline_menu_24)
-
-        binding.navigationView.setNavigationItemSelectedListener(this)
 
         binding.btnBookmark.setOnClickListener {
            val intent = Intent(this, FavoritePhotospotActivity::class.java)
@@ -67,29 +67,27 @@ class ProfileActivity : AppCompatActivity(), NavigationView.OnNavigationItemSele
         }
         return super.onOptionsItemSelected(item)
     }
-    override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            R.id.menu_item_location -> {
-                val intent = Intent(this, LocationPageActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-            R.id.menu_item_feature -> {
-                val intent = Intent(this, FeatureActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-            R.id.menu_item_gallery -> {
-                val intent = Intent(this, GalleryActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-            R.id.menu_item_pose -> {
-                val intent = Intent(this, PoseActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-        }
-        return true
+    fun onLinearLocationClick(view: View) {
+        Log.d("MainActivity", "onImageLocationClick called")
+        val intent = Intent(this, LocationPageActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onLinearFeatureClick(view: View) {
+        Log.d("MainActivity", "onImageFeatureClick called")
+        val intent = Intent(this, FeatureActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onLinearGalleryClick(view: View) {
+        Log.d("MainActivity", "onLinearGalleryClick called")
+        val intent = Intent(this, GalleryActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onImagePoseClick(view: View) {
+        Log.d("MainActivity", "onImagePoseClick called")
+        val intent = Intent(this, PoseActivity::class.java)
+        startActivity(intent)
     }
 }
